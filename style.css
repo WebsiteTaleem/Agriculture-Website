@@ -1,0 +1,174 @@
+body{
+    font-family: "Roboto", sans-serif;
+    /* color: white; */
+}
+:root{
+    --main-color:#ffb11f;
+    --blue-color:#0f1b28;
+}
+li.nav-item
+{
+    padding: 0 15px;
+}
+li.nav-item a
+{
+    color: white;
+}
+li.nav-item a:hover
+{
+    color: var(--main-color);
+}
+li.nav-item button
+{
+    background-color: var(--main-color);
+}
+li.nav-item button:hover
+{
+    background-color: var(--blue-color);
+}
+.btn
+{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 2% 8%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn:hover
+{
+    background-color: var(--blue-color);
+    color: #fff;
+}
+.section-1
+{
+    background-image: url(./img/back-top.jpg);
+    height: 130vh;
+}
+.banner-content
+{
+    margin-top: 20%;
+}
+.banner-content h1{
+    font-size: 7rem;
+    font-weight: bolder;
+}
+.banner-content button
+{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 1% 4%;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.banner-content button:hover
+{
+    background-color: var(--blue-color);
+}
+.card{
+    background: #f8fafe;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card span{
+    color: #6b6b6b;
+}
+.card:hover{
+    box-shadow: 0 10px 10px rgba(136, 136, 136, 0.1);
+    background: #f8fafe;
+    z-index: 1;
+}
+.card:hover h5{
+    color: #ffb11f;
+}
+.section-2
+{
+    position: relative;
+}
+.section2-img1
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.section2-img2
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.section2-img3
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.sec2-top
+{
+    padding-top: 8%;
+    padding-bottom: 4%;
+}
+.section-2
+{
+    padding-bottom: 6%;
+}
+.section-3{
+    background: url(./img/bg-1.jpg);
+    position: relative;
+    padding-bottom: 8%;
+    overflow: hidden;
+}
+.sec3-img1
+{
+    position: absolute;
+    bottom: 0;
+    right: -22%;
+    
+}
+.light{
+    color: #716c80;
+}
+.sec4-img
+{
+    position: relative;
+}
+.sec4-img h1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.sec4-img:hover img {
+    opacity: 0.3; 
+  }
+  .sec4-img img {
+    opacity: 1; 
+    transition: opacity 0.3s; 
+    width: 100%;
+  }
+  .sec4-img:hover {
+    background-color:#ffb11f !important; 
+}
+.footer
+{
+    background-image: url(./img/footer-bg.png);
+    background-color: #0f1b28;
+}
+.f-text
+{
+    font-size: 15px;
+}
+.f-text1
+{
+    font-size: 16px;
+}
+.f-img
+{
+    width: 90px;
+    height: 60px;
+}
+.f-icon
+{
+    color: #ffb11f;
+}
